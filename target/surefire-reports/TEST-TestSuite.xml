@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.816" tests="24" errors="0" skipped="9" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat\target\test-classes;C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat\target\classes;C:\Users\YOGH5035\.m2\repository\io\appium\java-client\6.1.0\java-client-6.1.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\YOGH5035\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\YOGH5035\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\YOGH5035\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\YOGH5035\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\YOGH5035\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\YOGH5035\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\YOGH5035\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\YOGH5035\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\YOGH5035\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\YOGH5035\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\YOGH5035\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\YOGH5035\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\YOGH5035\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\YOGH5035\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\YOGH5035\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\YOGH5035\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\YOGH5035\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\YOGH5035\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\YOGH5035\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\YOGH5035\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\YOGH5035\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\YOGH5035\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\YOGH5035\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\YOGH5035\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\YOGH5035\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\YOGH5035\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\YOGH5035\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\YOGH5035\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\YOGH5035\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="user.country.format" value="SE"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\YOGH5035\AppData\Local\Temp\surefire5756110851263383343\surefirebooter2852954167592836725.jar C:\Users\YOGH5035\AppData\Local\Temp\surefire5756110851263383343 2019-01-03T10-33-41_722-jvmRun1 surefire3378035823257672768tmp surefire_02875769570797268166tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat\target\test-classes;C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat\target\classes;C:\Users\YOGH5035\.m2\repository\io\appium\java-client\6.1.0\java-client-6.1.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\YOGH5035\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\YOGH5035\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\YOGH5035\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\YOGH5035\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\YOGH5035\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\YOGH5035\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\YOGH5035\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\YOGH5035\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\YOGH5035\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\YOGH5035\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\YOGH5035\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\YOGH5035\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\YOGH5035\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\YOGH5035\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\YOGH5035\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\YOGH5035\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\YOGH5035\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\YOGH5035\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\YOGH5035\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\YOGH5035\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\YOGH5035\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\YOGH5035\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\YOGH5035\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\YOGH5035\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\YOGH5035\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\YOGH5035\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\YOGH5035\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\YOGH5035\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\YOGH5035\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\YOGH5035\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\YOGH5035\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\YOGH5035"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\YOGH5035\AppData\Local\Temp\surefire5756110851263383343\surefirebooter2852954167592836725.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="YOGH5035"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\YOGH5035\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\YOGH5035\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="sv"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_181\bin\;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\YOGH5035\AppData\Local\Android\sdk\tools;C:\Users\YOGH5035\AppData\Local\Android\sdk\tools\bin;C:\Users\YOGH5035\AppData\Local\Android\sdk\platform-tools;C:\Users\YOGH5035\AppData\Local\Android\sdk\build-tools;C:\Users\YOGH5035\AppData\Local\Android\sdk\emulator;C:\Users\YOGH5035\AppData\Local\Android\sdk\tools;C:\Users\YOGH5035\AppData\Local\Android\sdk\platform-tools;C:\Users\YOGH5035\AppData\Local\Android\sdk\build-tools\27.0.3;C:\maven\apache-maven-3.5.4\bin;C:\Program Files\Java\jdk1.8.0_181\bin;;C:\Program Files\Microsoft VS Code\bin;C:\Users\YOGH5035\AppData\Local\Microsoft\WindowsApps;C:\Users\YOGH5035\AppData\Roaming\npm;C:\adb\platform-tools;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="isPageLoadedTest" classname="com.sigma.appium.tests.android.HomePageTest" time="0.586"/>
+  <testcase name="clickChromeIconTest" classname="com.sigma.appium.tests.android.HomePageTest" time="1.356"/>
+  <testcase name="isPageUnloadedTest" classname="com.sigma.appium.tests.android.HomePageTest" time="2.711"/>
+  <testcase name="isPageLoadedTest" classname="com.sigma.appium.tests.android.CarSelectionPageTest" time="0.087"/>
+  <testcase name="enterUserNameTest" classname="com.sigma.appium.tests.android.CarSelectionPageTest" time="10.497"/>
+  <testcase name="performCarSelectionTest" classname="com.sigma.appium.tests.android.CarSelectionPageTest" time="2.796"/>
+  <testcase name="clickSendNameButtonTest" classname="com.sigma.appium.tests.android.CarSelectionPageTest" time="0.209"/>
+  <testcase name="isUserDataShownTest" classname="com.sigma.appium.tests.android.CarSelectionPageTest" time="1.324"/>
+  <testcase name="isPageUnloadedTest" classname="com.sigma.appium.tests.android.CarSelectionPageTest" time="0.098"/>
+  <testcase name="returnToHomePageTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="1.098"/>
+  <testcase name="isPageLoadedTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0.078"/>
+  <testcase name="getPopUpWindowTextTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped message="An unknown server-side error occurred while processing the command. Original error: String index out of range: -1&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244&#10;*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}"/>
+    <system-out><![CDATA[
+
+<?xml version="1.0" encoding="UTF-8"?><hierarchy rotation="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,63][1080,129]" resource-id="" instance="1"><android.widget.TextView index="0" text="selendroid-test-app" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[11,64][1069,125]" resource-id="android:id/title" instance="0"/></android.widget.FrameLayout><android.widget.FrameLayout index="1" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1794]" resource-id="android:id/content" instance="2"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1330]" resource-id="" instance="1"><android.widget.TextView index="0" text="Hello Default Locale, Selendroid-test-app!" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,180]" resource-id="" instance="1"/><android.widget.LinearLayout index="1" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="l10nCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,180][1080,306]" resource-id="io.selendroid.testapp:id/l10n" instance="2"><android.widget.TextView index="0" text="Localization (L10n) locator test" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,211][511,262]" resource-id="" instance="2"/><android.widget.Button index="1" text="EN Button" class="android.widget.Button" package="io.selendroid.testapp" content-desc="buttonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[511,180][733,306]" resource-id="io.selendroid.testapp:id/buttonTest" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="2" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][1080,465]" resource-id="io.selendroid.testapp:id/imageView" instance="3"><android.widget.ImageButton index="0" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="buttonStartWebviewCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][540,465]" resource-id="io.selendroid.testapp:id/buttonStartWebview" instance="0"/><android.widget.ImageButton index="1" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="startUserRegistrationCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[540,306][1080,465]" resource-id="io.selendroid.testapp:id/startUserRegistration" instance="1"/></android.widget.LinearLayout><android.widget.EditText index="3" text="" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="my_text_fieldCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,465][1080,591]" resource-id="io.selendroid.testapp:id/my_text_field" instance="0"/><android.widget.LinearLayout index="4" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,591][1080,717]" resource-id="io.selendroid.testapp:id/lastElementRow" instance="4"><android.widget.Button index="0" text="Show Progress Bar for a while" class="android.widget.Button" package="io.selendroid.testapp" content-desc="waitingButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,599][552,717]" resource-id="io.selendroid.testapp:id/waitingButtonTest" instance="1"/><android.widget.CheckBox index="1" text="I accept adds" class="android.widget.CheckBox" package="io.selendroid.testapp" content-desc="" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[552,591][903,717]" resource-id="io.selendroid.testapp:id/input_adds_check_box" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="5" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][1080,843]" resource-id="io.selendroid.testapp:id/visibleTestArea" instance="5"><android.widget.Button index="0" text="Display text view" class="android.widget.Button" package="io.selendroid.testapp" content-desc="visibleButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][333,843]" resource-id="io.selendroid.testapp:id/visibleButtonTest" instance="2"/></android.widget.LinearLayout><android.widget.LinearLayout index="6" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][1080,1027]" resource-id="io.selendroid.testapp:id/visibleTestArea2" instance="6"><android.widget.Button index="0" text="Displays a Toast" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showToastButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][360,969]" resource-id="io.selendroid.testapp:id/showToastButton" instance="3"/><android.widget.Button index="1" text="Display Popup Window" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showPopupWindowButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[360,857][720,998]" resource-id="io.selendroid.testapp:id/showPopupWindowButton" instance="4"/><android.widget.Button index="2" text="Press to throw unhandled exception" class="android.widget.Button" package="io.selendroid.testapp" content-desc="exceptionTestButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[720,857][1080,1027]" resource-id="io.selendroid.testapp:id/exceptionTestButton" instance="5"/></android.widget.LinearLayout><android.widget.EditText index="7" text="Type to throw unhandled exception" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,1027][1080,1153]" resource-id="io.selendroid.testapp:id/exceptionTestField" instance="1"/><android.widget.TextView index="8" text="????????" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1153][1080,1204]" resource-id="io.selendroid.testapp:id/encodingTextview" instance="3"/><android.widget.LinearLayout index="9" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="anotherTestArea" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][1080,1330]" resource-id="io.selendroid.testapp:id/visibleTestArea3" instance="7"><android.widget.Button index="0" text="Display and focus on layout" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][668,1330]" resource-id="io.selendroid.testapp:id/topLevelElementTest" instance="6"/><android.widget.Button index="1" text="Touch Actions" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[668,1204][1080,1330]" resource-id="io.selendroid.testapp:id/touchTest" instance="7"/></android.widget.LinearLayout></android.widget.LinearLayout></android.widget.FrameLayout></android.widget.LinearLayout></android.widget.FrameLayout></hierarchy>
+
+
+]]></system-out>
+    <system-err><![CDATA[jan 03, 2019 10:34:15 FM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.AndroidUIAutomator: It's a PopupWindow)
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+]]></system-err>
+  </testcase>
+  <testcase name="getPopUpWindowTextTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped message="An unknown server-side error occurred while processing the command. Original error: String index out of range: -1&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244&#10;*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}"/>
+    <system-out><![CDATA[
+
+<?xml version="1.0" encoding="UTF-8"?><hierarchy rotation="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,63][1080,129]" resource-id="" instance="1"><android.widget.TextView index="0" text="selendroid-test-app" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[11,64][1069,125]" resource-id="android:id/title" instance="0"/></android.widget.FrameLayout><android.widget.FrameLayout index="1" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1794]" resource-id="android:id/content" instance="2"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1330]" resource-id="" instance="1"><android.widget.TextView index="0" text="Hello Default Locale, Selendroid-test-app!" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,180]" resource-id="" instance="1"/><android.widget.LinearLayout index="1" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="l10nCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,180][1080,306]" resource-id="io.selendroid.testapp:id/l10n" instance="2"><android.widget.TextView index="0" text="Localization (L10n) locator test" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,211][511,262]" resource-id="" instance="2"/><android.widget.Button index="1" text="EN Button" class="android.widget.Button" package="io.selendroid.testapp" content-desc="buttonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[511,180][733,306]" resource-id="io.selendroid.testapp:id/buttonTest" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="2" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][1080,465]" resource-id="io.selendroid.testapp:id/imageView" instance="3"><android.widget.ImageButton index="0" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="buttonStartWebviewCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][540,465]" resource-id="io.selendroid.testapp:id/buttonStartWebview" instance="0"/><android.widget.ImageButton index="1" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="startUserRegistrationCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[540,306][1080,465]" resource-id="io.selendroid.testapp:id/startUserRegistration" instance="1"/></android.widget.LinearLayout><android.widget.EditText index="3" text="" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="my_text_fieldCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,465][1080,591]" resource-id="io.selendroid.testapp:id/my_text_field" instance="0"/><android.widget.LinearLayout index="4" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,591][1080,717]" resource-id="io.selendroid.testapp:id/lastElementRow" instance="4"><android.widget.Button index="0" text="Show Progress Bar for a while" class="android.widget.Button" package="io.selendroid.testapp" content-desc="waitingButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,599][552,717]" resource-id="io.selendroid.testapp:id/waitingButtonTest" instance="1"/><android.widget.CheckBox index="1" text="I accept adds" class="android.widget.CheckBox" package="io.selendroid.testapp" content-desc="" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[552,591][903,717]" resource-id="io.selendroid.testapp:id/input_adds_check_box" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="5" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][1080,843]" resource-id="io.selendroid.testapp:id/visibleTestArea" instance="5"><android.widget.Button index="0" text="Display text view" class="android.widget.Button" package="io.selendroid.testapp" content-desc="visibleButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][333,843]" resource-id="io.selendroid.testapp:id/visibleButtonTest" instance="2"/></android.widget.LinearLayout><android.widget.LinearLayout index="6" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][1080,1027]" resource-id="io.selendroid.testapp:id/visibleTestArea2" instance="6"><android.widget.Button index="0" text="Displays a Toast" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showToastButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][360,969]" resource-id="io.selendroid.testapp:id/showToastButton" instance="3"/><android.widget.Button index="1" text="Display Popup Window" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showPopupWindowButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[360,857][720,998]" resource-id="io.selendroid.testapp:id/showPopupWindowButton" instance="4"/><android.widget.Button index="2" text="Press to throw unhandled exception" class="android.widget.Button" package="io.selendroid.testapp" content-desc="exceptionTestButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[720,857][1080,1027]" resource-id="io.selendroid.testapp:id/exceptionTestButton" instance="5"/></android.widget.LinearLayout><android.widget.EditText index="7" text="Type to throw unhandled exception" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,1027][1080,1153]" resource-id="io.selendroid.testapp:id/exceptionTestField" instance="1"/><android.widget.TextView index="8" text="????????" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1153][1080,1204]" resource-id="io.selendroid.testapp:id/encodingTextview" instance="3"/><android.widget.LinearLayout index="9" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="anotherTestArea" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][1080,1330]" resource-id="io.selendroid.testapp:id/visibleTestArea3" instance="7"><android.widget.Button index="0" text="Display and focus on layout" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][668,1330]" resource-id="io.selendroid.testapp:id/topLevelElementTest" instance="6"/><android.widget.Button index="1" text="Touch Actions" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[668,1204][1080,1330]" resource-id="io.selendroid.testapp:id/touchTest" instance="7"/></android.widget.LinearLayout></android.widget.LinearLayout></android.widget.FrameLayout></android.widget.LinearLayout></android.widget.FrameLayout></hierarchy>
+
+
+]]></system-out>
+    <system-err><![CDATA[jan 03, 2019 10:34:18 FM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.AndroidUIAutomator: It's a PopupWindow)
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+]]></system-err>
+  </testcase>
+  <testcase name="getPopUpWindowTextTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped message="An unknown server-side error occurred while processing the command. Original error: String index out of range: -1&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244&#10;*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}"/>
+    <system-out><![CDATA[
+
+<?xml version="1.0" encoding="UTF-8"?><hierarchy rotation="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,63][1080,129]" resource-id="" instance="1"><android.widget.TextView index="0" text="selendroid-test-app" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[11,64][1069,125]" resource-id="android:id/title" instance="0"/></android.widget.FrameLayout><android.widget.FrameLayout index="1" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1794]" resource-id="android:id/content" instance="2"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1330]" resource-id="" instance="1"><android.widget.TextView index="0" text="Hello Default Locale, Selendroid-test-app!" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,180]" resource-id="" instance="1"/><android.widget.LinearLayout index="1" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="l10nCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,180][1080,306]" resource-id="io.selendroid.testapp:id/l10n" instance="2"><android.widget.TextView index="0" text="Localization (L10n) locator test" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,211][511,262]" resource-id="" instance="2"/><android.widget.Button index="1" text="EN Button" class="android.widget.Button" package="io.selendroid.testapp" content-desc="buttonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[511,180][733,306]" resource-id="io.selendroid.testapp:id/buttonTest" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="2" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][1080,465]" resource-id="io.selendroid.testapp:id/imageView" instance="3"><android.widget.ImageButton index="0" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="buttonStartWebviewCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][540,465]" resource-id="io.selendroid.testapp:id/buttonStartWebview" instance="0"/><android.widget.ImageButton index="1" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="startUserRegistrationCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[540,306][1080,465]" resource-id="io.selendroid.testapp:id/startUserRegistration" instance="1"/></android.widget.LinearLayout><android.widget.EditText index="3" text="" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="my_text_fieldCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,465][1080,591]" resource-id="io.selendroid.testapp:id/my_text_field" instance="0"/><android.widget.LinearLayout index="4" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,591][1080,717]" resource-id="io.selendroid.testapp:id/lastElementRow" instance="4"><android.widget.Button index="0" text="Show Progress Bar for a while" class="android.widget.Button" package="io.selendroid.testapp" content-desc="waitingButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,599][552,717]" resource-id="io.selendroid.testapp:id/waitingButtonTest" instance="1"/><android.widget.CheckBox index="1" text="I accept adds" class="android.widget.CheckBox" package="io.selendroid.testapp" content-desc="" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[552,591][903,717]" resource-id="io.selendroid.testapp:id/input_adds_check_box" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="5" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][1080,843]" resource-id="io.selendroid.testapp:id/visibleTestArea" instance="5"><android.widget.Button index="0" text="Display text view" class="android.widget.Button" package="io.selendroid.testapp" content-desc="visibleButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][333,843]" resource-id="io.selendroid.testapp:id/visibleButtonTest" instance="2"/></android.widget.LinearLayout><android.widget.LinearLayout index="6" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][1080,1027]" resource-id="io.selendroid.testapp:id/visibleTestArea2" instance="6"><android.widget.Button index="0" text="Displays a Toast" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showToastButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][360,969]" resource-id="io.selendroid.testapp:id/showToastButton" instance="3"/><android.widget.Button index="1" text="Display Popup Window" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showPopupWindowButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[360,857][720,998]" resource-id="io.selendroid.testapp:id/showPopupWindowButton" instance="4"/><android.widget.Button index="2" text="Press to throw unhandled exception" class="android.widget.Button" package="io.selendroid.testapp" content-desc="exceptionTestButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[720,857][1080,1027]" resource-id="io.selendroid.testapp:id/exceptionTestButton" instance="5"/></android.widget.LinearLayout><android.widget.EditText index="7" text="Type to throw unhandled exception" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,1027][1080,1153]" resource-id="io.selendroid.testapp:id/exceptionTestField" instance="1"/><android.widget.TextView index="8" text="????????" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1153][1080,1204]" resource-id="io.selendroid.testapp:id/encodingTextview" instance="3"/><android.widget.LinearLayout index="9" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="anotherTestArea" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][1080,1330]" resource-id="io.selendroid.testapp:id/visibleTestArea3" instance="7"><android.widget.Button index="0" text="Display and focus on layout" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][668,1330]" resource-id="io.selendroid.testapp:id/topLevelElementTest" instance="6"/><android.widget.Button index="1" text="Touch Actions" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[668,1204][1080,1330]" resource-id="io.selendroid.testapp:id/touchTest" instance="7"/></android.widget.LinearLayout></android.widget.LinearLayout></android.widget.FrameLayout></android.widget.LinearLayout></android.widget.FrameLayout></hierarchy>
+
+
+]]></system-out>
+    <system-err><![CDATA[jan 03, 2019 10:34:21 FM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.AndroidUIAutomator: It's a PopupWindow)
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+]]></system-err>
+  </testcase>
+  <testcase name="getPopUpWindowTextTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="3.227">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: String index out of range: -1&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244&#10;*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+</failure>
+    <system-out><![CDATA[
+
+<?xml version="1.0" encoding="UTF-8"?><hierarchy rotation="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,0][1080,1794]" resource-id="" instance="0"><android.widget.FrameLayout index="0" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,63][1080,129]" resource-id="" instance="1"><android.widget.TextView index="0" text="selendroid-test-app" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[11,64][1069,125]" resource-id="android:id/title" instance="0"/></android.widget.FrameLayout><android.widget.FrameLayout index="1" text="" class="android.widget.FrameLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1794]" resource-id="android:id/content" instance="2"><android.widget.LinearLayout index="0" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,1330]" resource-id="" instance="1"><android.widget.TextView index="0" text="Hello Default Locale, Selendroid-test-app!" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,129][1080,180]" resource-id="" instance="1"/><android.widget.LinearLayout index="1" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="l10nCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,180][1080,306]" resource-id="io.selendroid.testapp:id/l10n" instance="2"><android.widget.TextView index="0" text="Localization (L10n) locator test" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,211][511,262]" resource-id="" instance="2"/><android.widget.Button index="1" text="EN Button" class="android.widget.Button" package="io.selendroid.testapp" content-desc="buttonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[511,180][733,306]" resource-id="io.selendroid.testapp:id/buttonTest" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="2" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][1080,465]" resource-id="io.selendroid.testapp:id/imageView" instance="3"><android.widget.ImageButton index="0" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="buttonStartWebviewCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,306][540,465]" resource-id="io.selendroid.testapp:id/buttonStartWebview" instance="0"/><android.widget.ImageButton index="1" text="" class="android.widget.ImageButton" package="io.selendroid.testapp" content-desc="startUserRegistrationCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[540,306][1080,465]" resource-id="io.selendroid.testapp:id/startUserRegistration" instance="1"/></android.widget.LinearLayout><android.widget.EditText index="3" text="" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="my_text_fieldCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,465][1080,591]" resource-id="io.selendroid.testapp:id/my_text_field" instance="0"/><android.widget.LinearLayout index="4" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="imageViewCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,591][1080,717]" resource-id="io.selendroid.testapp:id/lastElementRow" instance="4"><android.widget.Button index="0" text="Show Progress Bar for a while" class="android.widget.Button" package="io.selendroid.testapp" content-desc="waitingButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,599][552,717]" resource-id="io.selendroid.testapp:id/waitingButtonTest" instance="1"/><android.widget.CheckBox index="1" text="I accept adds" class="android.widget.CheckBox" package="io.selendroid.testapp" content-desc="" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[552,591][903,717]" resource-id="io.selendroid.testapp:id/input_adds_check_box" instance="0"/></android.widget.LinearLayout><android.widget.LinearLayout index="5" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][1080,843]" resource-id="io.selendroid.testapp:id/visibleTestArea" instance="5"><android.widget.Button index="0" text="Display text view" class="android.widget.Button" package="io.selendroid.testapp" content-desc="visibleButtonTestCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,717][333,843]" resource-id="io.selendroid.testapp:id/visibleButtonTest" instance="2"/></android.widget.LinearLayout><android.widget.LinearLayout index="6" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="visibleTestAreaCD" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][1080,1027]" resource-id="io.selendroid.testapp:id/visibleTestArea2" instance="6"><android.widget.Button index="0" text="Displays a Toast" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showToastButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,843][360,969]" resource-id="io.selendroid.testapp:id/showToastButton" instance="3"/><android.widget.Button index="1" text="Display Popup Window" class="android.widget.Button" package="io.selendroid.testapp" content-desc="showPopupWindowButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[360,857][720,998]" resource-id="io.selendroid.testapp:id/showPopupWindowButton" instance="4"/><android.widget.Button index="2" text="Press to throw unhandled exception" class="android.widget.Button" package="io.selendroid.testapp" content-desc="exceptionTestButtonCD" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[720,857][1080,1027]" resource-id="io.selendroid.testapp:id/exceptionTestButton" instance="5"/></android.widget.LinearLayout><android.widget.EditText index="7" text="Type to throw unhandled exception" class="android.widget.EditText" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" bounds="[0,1027][1080,1153]" resource-id="io.selendroid.testapp:id/exceptionTestField" instance="1"/><android.widget.TextView index="8" text="????????" class="android.widget.TextView" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1153][1080,1204]" resource-id="io.selendroid.testapp:id/encodingTextview" instance="3"/><android.widget.LinearLayout index="9" text="" class="android.widget.LinearLayout" package="io.selendroid.testapp" content-desc="anotherTestArea" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][1080,1330]" resource-id="io.selendroid.testapp:id/visibleTestArea3" instance="7"><android.widget.Button index="0" text="Display and focus on layout" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[0,1204][668,1330]" resource-id="io.selendroid.testapp:id/topLevelElementTest" instance="6"/><android.widget.Button index="1" text="Touch Actions" class="android.widget.Button" package="io.selendroid.testapp" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[668,1204][1080,1330]" resource-id="io.selendroid.testapp:id/touchTest" instance="7"/></android.widget.LinearLayout></android.widget.LinearLayout></android.widget.FrameLayout></android.widget.LinearLayout></android.widget.FrameLayout></hierarchy>
+
+
+]]></system-out>
+    <system-err><![CDATA[jan 03, 2019 10:34:24 FM org.openqa.selenium.support.ui.ExpectedConditions findElement
+WARNING: WebDriverException thrown by findElement(By.AndroidUIAutomator: It's a PopupWindow)
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+]]></system-err>
+  </testcase>
+  <testcase name="dismissPopUpWindowTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='Dismiss']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:67)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="dismissPopUpWindowTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='Dismiss']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:67)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="dismissPopUpWindowTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='Dismiss']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:67)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="dismissPopUpWindowTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="1.632">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+</failure>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='Dismiss']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:67)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="clickThrowExceptionButton" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped message="Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]"/>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=id, value=//android.widget.Button[@content-desc="exceptionTestButtonCD"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="clickThrowExceptionButton" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped message="Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]"/>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=id, value=//android.widget.Button[@content-desc="exceptionTestButtonCD"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="clickThrowExceptionButton" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0">
+    <skipped message="Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]"/>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=id, value=//android.widget.Button[@content-desc="exceptionTestButtonCD"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="clickThrowExceptionButton" classname="com.sigma.appium.tests.android.PopUpPageTest" time="1.652">
+    <failure message="Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+</failure>
+    <system-out><![CDATA[Couldn't extract element from By object
+]]></system-out>
+    <system-err><![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=id, value=//android.widget.Button[@content-desc="exceptionTestButtonCD"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at com.sigma.appium.android.BasePage.getMobileElement(BasePage.java:149)
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.clickThrowExceptionButton(PopUpPage.java:79)
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+  <testcase name="isPageUnloadedTest" classname="com.sigma.appium.tests.android.PopUpPageTest" time="0.001"/>
+</testsuite>

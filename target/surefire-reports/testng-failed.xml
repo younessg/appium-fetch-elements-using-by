@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Bench_Test_Cases]">
+  <listeners>
+    <listener class-name="com.sigma.appium.core.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Home_WebView_Pages_Tests(failed)">
+    <classes>
+      <class name="com.sigma.appium.tests.android.PopUpPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="dismissPopUpWindowTest"/>
+          <include name="getPopUpWindowTextTest"/>
+          <include name="clickThrowExceptionButton"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sigma.appium.tests.android.PopUpPageTest -->
+    </classes>
+  </test> <!-- Home_WebView_Pages_Tests(failed) -->
+</suite> <!-- Failed suite [Bench_Test_Cases] -->

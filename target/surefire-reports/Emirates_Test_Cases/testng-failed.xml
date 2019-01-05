@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Emirates_Test_Cases]">
+  <test thread-count="5" verbose="0" name="Home_WebView_Pages_Tests(failed)">
+    <classes>
+      <class name="com.appium.youness.tests.PopUpPageTest">
+        <methods>
+          <include name="getPopUpWindowTextTest"/>
+          <include name="dismissPopUpWindowTest"/>
+          <include name="init"/>
+          <include name="setup"/>
+          <include name="clickThrowExceptionButton"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.appium.youness.tests.PopUpPageTest -->
+    </classes>
+  </test> <!-- Home_WebView_Pages_Tests(failed) -->
+</suite> <!-- Failed suite [Emirates_Test_Cases] -->

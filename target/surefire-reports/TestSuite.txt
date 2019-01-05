@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 3, Errors: 0, Skipped: 9, Time elapsed: 52.816 s <<< FAILURE! - in TestSuite
+getPopUpWindowTextTest(com.sigma.appium.tests.android.PopUpPageTest)  Time elapsed: 3.227 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+
+dismissPopUpWindowTest(com.sigma.appium.tests.android.PopUpPageTest)  Time elapsed: 1.632 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+
+clickThrowExceptionButton(com.sigma.appium.tests.android.PopUpPageTest)  Time elapsed: 1.652 s  <<< FAILURE!
+java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+

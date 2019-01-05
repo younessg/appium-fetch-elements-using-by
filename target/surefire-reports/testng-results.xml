@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="9" failed="3" ignored="0" total="24" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bench_Test_Cases" duration-ms="41056" started-at="2019-01-03T09:33:50Z" finished-at="2019-01-03T09:34:32Z">
+    <groups>
+    </groups>
+    <test name="Home_WebView_Pages_Tests" duration-ms="41056" started-at="2019-01-03T09:33:50Z" finished-at="2019-01-03T09:34:32Z">
+      <class name="com.sigma.appium.tests.android.HomePageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sigma.appium.tests.android.HomePageTest@59e84876]" name="init" is-config="true" duration-ms="0" started-at="2019-01-03T09:33:50Z" finished-at="2019-01-03T09:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sigma.appium.tests.android.HomePageTest@59e84876]" name="setup" is-config="true" duration-ms="31" started-at="2019-01-03T09:33:50Z" finished-at="2019-01-03T09:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="isPageLoadedTest()[pri:0, instance:com.sigma.appium.tests.android.HomePageTest@59e84876]" name="isPageLoadedTest" duration-ms="581" started-at="2019-01-03T09:33:51Z" finished-at="2019-01-03T09:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageLoadedTest -->
+        <test-method status="PASS" signature="clickChromeIconTest()[pri:1, instance:com.sigma.appium.tests.android.HomePageTest@59e84876]" name="clickChromeIconTest" duration-ms="1361" started-at="2019-01-03T09:33:51Z" finished-at="2019-01-03T09:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickChromeIconTest -->
+        <test-method status="PASS" signature="isPageUnloadedTest()[pri:2, instance:com.sigma.appium.tests.android.HomePageTest@59e84876]" name="isPageUnloadedTest" duration-ms="2711" started-at="2019-01-03T09:33:52Z" finished-at="2019-01-03T09:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageUnloadedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sigma.appium.tests.android.HomePageTest@59e84876]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-03T09:33:55Z" finished-at="2019-01-03T09:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sigma.appium.tests.android.HomePageTest -->
+      <class name="com.sigma.appium.tests.android.CarSelectionPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="init" is-config="true" duration-ms="0" started-at="2019-01-03T09:33:55Z" finished-at="2019-01-03T09:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="setup" is-config="true" duration-ms="11" started-at="2019-01-03T09:33:55Z" finished-at="2019-01-03T09:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="isPageLoadedTest()[pri:3, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="isPageLoadedTest" duration-ms="89" started-at="2019-01-03T09:33:55Z" finished-at="2019-01-03T09:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageLoadedTest -->
+        <test-method status="PASS" signature="enterUserNameTest()[pri:4, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="enterUserNameTest" duration-ms="10496" started-at="2019-01-03T09:33:55Z" finished-at="2019-01-03T09:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUserNameTest -->
+        <test-method status="PASS" signature="performCarSelectionTest()[pri:5, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="performCarSelectionTest" duration-ms="2796" started-at="2019-01-03T09:34:06Z" finished-at="2019-01-03T09:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performCarSelectionTest -->
+        <test-method status="PASS" signature="clickSendNameButtonTest()[pri:6, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="clickSendNameButtonTest" duration-ms="209" started-at="2019-01-03T09:34:09Z" finished-at="2019-01-03T09:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSendNameButtonTest -->
+        <test-method status="PASS" signature="isUserDataShownTest()[pri:7, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="isUserDataShownTest" duration-ms="1323" started-at="2019-01-03T09:34:09Z" finished-at="2019-01-03T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserDataShownTest -->
+        <test-method status="PASS" signature="isPageUnloadedTest()[pri:8, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="isPageUnloadedTest" duration-ms="97" started-at="2019-01-03T09:34:10Z" finished-at="2019-01-03T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageUnloadedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sigma.appium.tests.android.CarSelectionPageTest@61a485d2]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-01-03T09:34:10Z" finished-at="2019-01-03T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sigma.appium.tests.android.CarSelectionPageTest -->
+      <class name="com.sigma.appium.tests.android.PopUpPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="init" is-config="true" duration-ms="0" started-at="2019-01-03T09:34:10Z" finished-at="2019-01-03T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="setup" is-config="true" duration-ms="14" started-at="2019-01-03T09:34:10Z" finished-at="2019-01-03T09:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="returnToHomePageTest()[pri:9, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="returnToHomePageTest" duration-ms="1099" started-at="2019-01-03T09:34:10Z" finished-at="2019-01-03T09:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHomePageTest -->
+        <test-method status="PASS" signature="isPageLoadedTest()[pri:10, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="isPageLoadedTest" duration-ms="78" started-at="2019-01-03T09:34:11Z" finished-at="2019-01-03T09:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageLoadedTest -->
+        <test-method status="SKIP" signature="getPopUpWindowTextTest()[pri:11, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="getPopUpWindowTextTest" duration-ms="3265" started-at="2019-01-03T09:34:11Z" finished-at="2019-01-03T09:34:15Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopUpWindowTextTest -->
+        <test-method status="SKIP" signature="getPopUpWindowTextTest()[pri:11, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="getPopUpWindowTextTest" duration-ms="3255" started-at="2019-01-03T09:34:15Z" finished-at="2019-01-03T09:34:18Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopUpWindowTextTest -->
+        <test-method status="SKIP" signature="getPopUpWindowTextTest()[pri:11, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="getPopUpWindowTextTest" duration-ms="3226" started-at="2019-01-03T09:34:18Z" finished-at="2019-01-03T09:34:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopUpWindowTextTest -->
+        <test-method status="FAIL" signature="getPopUpWindowTextTest()[pri:11, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="getPopUpWindowTextTest" duration-ms="3229" started-at="2019-01-03T09:34:21Z" finished-at="2019-01-03T09:34:24Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '172.23.199.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It's a PopupWindow}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopUpWindowTextTest -->
+        <test-method status="SKIP" signature="dismissPopUpWindowTest()[pri:12, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="dismissPopUpWindowTest" duration-ms="65" started-at="2019-01-03T09:34:24Z" finished-at="2019-01-03T09:34:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissPopUpWindowTest -->
+        <test-method status="SKIP" signature="dismissPopUpWindowTest()[pri:12, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="dismissPopUpWindowTest" duration-ms="75" started-at="2019-01-03T09:34:24Z" finished-at="2019-01-03T09:34:25Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissPopUpWindowTest -->
+        <test-method status="SKIP" signature="dismissPopUpWindowTest()[pri:12, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="dismissPopUpWindowTest" duration-ms="202" started-at="2019-01-03T09:34:25Z" finished-at="2019-01-03T09:34:25Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissPopUpWindowTest -->
+        <test-method status="FAIL" signature="dismissPopUpWindowTest()[pri:12, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="dismissPopUpWindowTest" duration-ms="148" started-at="2019-01-03T09:34:25Z" finished-at="2019-01-03T09:34:25Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissPopUpWindowTest -->
+        <test-method status="SKIP" signature="clickThrowExceptionButton()[pri:13, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="clickThrowExceptionButton" duration-ms="369" started-at="2019-01-03T09:34:25Z" finished-at="2019-01-03T09:34:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickThrowExceptionButton -->
+        <test-method status="SKIP" signature="clickThrowExceptionButton()[pri:13, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="clickThrowExceptionButton" duration-ms="3027" started-at="2019-01-03T09:34:25Z" finished-at="2019-01-03T09:34:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickThrowExceptionButton -->
+        <test-method status="SKIP" signature="clickThrowExceptionButton()[pri:13, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="clickThrowExceptionButton" duration-ms="556" started-at="2019-01-03T09:34:28Z" finished-at="2019-01-03T09:34:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickThrowExceptionButton -->
+        <test-method status="FAIL" signature="clickThrowExceptionButton()[pri:13, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="clickThrowExceptionButton" duration-ms="2684" started-at="2019-01-03T09:34:29Z" finished-at="2019-01-03T09:34:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickThrowExceptionButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-01-03T09:34:32Z" finished-at="2019-01-03T09:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="isPageUnloadedTest()[pri:14, instance:com.sigma.appium.tests.android.PopUpPageTest@39fb3ab6]" name="isPageUnloadedTest" duration-ms="0" started-at="2019-01-03T09:34:32Z" finished-at="2019-01-03T09:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageUnloadedTest -->
+      </class> <!-- com.sigma.appium.tests.android.PopUpPageTest -->
+      <class name="com.sigma.appium.tests.android.TestPrimer">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sigma.appium.tests.android.TestPrimer@337d0578]" name="setup" is-config="true" duration-ms="7270" started-at="2019-01-03T09:33:43Z" finished-at="2019-01-03T09:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sigma.appium.tests.android.TestPrimer@337d0578]" name="tearDown" is-config="true" duration-ms="3398" started-at="2019-01-03T09:34:32Z" finished-at="2019-01-03T09:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sigma.appium.tests.android.TestPrimer -->
+    </test> <!-- Home_WebView_Pages_Tests -->
+  </suite> <!-- Bench_Test_Cases -->
+</testng-results>

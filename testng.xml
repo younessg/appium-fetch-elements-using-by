@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bench_Test_Cases" verbose="1">
+	<listeners>
+		<listener
+			class-name="com.sigma.appium.core.AnnotationTransformer"></listener>
+	</listeners>
+	<test name="Home_WebView_Pages_Tests" preserve-order="true"
+		parallel="false">
+		<classes>
+			<class name="com.sigma.appium.tests.android.TestPrimer" />
+			<class name="com.sigma.appium.tests.android.HomePageTest" />
+			<class
+				name="com.sigma.appium.tests.android.CarSelectionPageTest" />
+			<class name="com.sigma.appium.tests.android.PopUpPageTest" />
+		</classes>
+	</test>
+</suite>

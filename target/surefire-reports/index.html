@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Bench_Test_Cases">
+              <span class="suite-name border-failed">Bench_Test_Cases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Bench_Test_Cases">
+                    <span>C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Bench_Test_Cases">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Bench_Test_Cases">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Bench_Test_Cases">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Bench_Test_Cases">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Bench_Test_Cases">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Bench_Test_Cases">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 3 failed,  9 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Bench_Test_Cases" class="hide-methods failed suite-Bench_Test_Cases"> (hide)</a> <!-- hide-methods failed suite-Bench_Test_Cases -->
+                      <a href="#" panel-name="suite-Bench_Test_Cases" class="show-methods failed suite-Bench_Test_Cases"> (show)</a> <!-- show-methods failed suite-Bench_Test_Cases -->
+                    </span>
+                    <div class="method-list-content failed suite-Bench_Test_Cases">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="clickThrowExceptionButton">clickThrowExceptionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="dismissPopUpWindowTest">dismissPopUpWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="getPopUpWindowTextTest">getPopUpWindowTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Bench_Test_Cases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Bench_Test_Cases" class="hide-methods skipped suite-Bench_Test_Cases"> (hide)</a> <!-- hide-methods skipped suite-Bench_Test_Cases -->
+                      <a href="#" panel-name="suite-Bench_Test_Cases" class="show-methods skipped suite-Bench_Test_Cases"> (show)</a> <!-- show-methods skipped suite-Bench_Test_Cases -->
+                    </span>
+                    <div class="method-list-content skipped suite-Bench_Test_Cases">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="clickThrowExceptionButton">clickThrowExceptionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="clickThrowExceptionButton">clickThrowExceptionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="clickThrowExceptionButton">clickThrowExceptionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="dismissPopUpWindowTest">dismissPopUpWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="dismissPopUpWindowTest">dismissPopUpWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="dismissPopUpWindowTest">dismissPopUpWindowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="getPopUpWindowTextTest">getPopUpWindowTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="getPopUpWindowTextTest">getPopUpWindowTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="getPopUpWindowTextTest">getPopUpWindowTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Bench_Test_Cases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Bench_Test_Cases" class="hide-methods passed suite-Bench_Test_Cases"> (hide)</a> <!-- hide-methods passed suite-Bench_Test_Cases -->
+                      <a href="#" panel-name="suite-Bench_Test_Cases" class="show-methods passed suite-Bench_Test_Cases"> (show)</a> <!-- show-methods passed suite-Bench_Test_Cases -->
+                    </span>
+                    <div class="method-list-content passed suite-Bench_Test_Cases">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.HomePageTest" hash-for-method="clickChromeIconTest">clickChromeIconTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.CarSelectionPageTest" hash-for-method="clickSendNameButtonTest">clickSendNameButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.CarSelectionPageTest" hash-for-method="enterUserNameTest">enterUserNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.HomePageTest" hash-for-method="isPageLoadedTest">isPageLoadedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="isPageLoadedTest">isPageLoadedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.CarSelectionPageTest" hash-for-method="isPageLoadedTest">isPageLoadedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="isPageUnloadedTest">isPageUnloadedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.HomePageTest" hash-for-method="isPageUnloadedTest">isPageUnloadedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.CarSelectionPageTest" hash-for-method="isPageUnloadedTest">isPageUnloadedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.CarSelectionPageTest" hash-for-method="isUserDataShownTest">isUserDataShownTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.CarSelectionPageTest" hash-for-method="performCarSelectionTest">performCarSelectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Bench_Test_Cases" title="com.sigma.appium.tests.android.PopUpPageTest" hash-for-method="returnToHomePageTest">returnToHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Bench_Test_Cases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Bench_Test_Cases" class="panel Bench_Test_Cases">
+          <div class="suite-Bench_Test_Cases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sigma.appium.tests.android.PopUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickThrowExceptionButton">
+                  </a> <!-- clickThrowExceptionButton -->
+                  <span class="method-name">clickThrowExceptionButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dismissPopUpWindowTest">
+                  </a> <!-- dismissPopUpWindowTest -->
+                  <span class="method-name">dismissPopUpWindowTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPopUpWindowTextTest">
+                  </a> <!-- getPopUpWindowTextTest -->
+                  <span class="method-name">getPopUpWindowTextTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bench_Test_Cases-class-failed -->
+          <div class="suite-Bench_Test_Cases-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.sigma.appium.tests.android.PopUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickThrowExceptionButton">
+                  </a> <!-- clickThrowExceptionButton -->
+                  <span class="method-name">clickThrowExceptionButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickThrowExceptionButton">
+                  </a> <!-- clickThrowExceptionButton -->
+                  <span class="method-name">clickThrowExceptionButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickThrowExceptionButton">
+                  </a> <!-- clickThrowExceptionButton -->
+                  <span class="method-name">clickThrowExceptionButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected to faild. Exception thrown by clicking the exception button! expected [true] but found [false]
+	at com.sigma.appium.tests.android.PopUpPageTest.clickThrowExceptionButton(PopUpPageTest.java:52)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dismissPopUpWindowTest">
+                  </a> <!-- dismissPopUpWindowTest -->
+                  <span class="method-name">dismissPopUpWindowTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dismissPopUpWindowTest">
+                  </a> <!-- dismissPopUpWindowTest -->
+                  <span class="method-name">dismissPopUpWindowTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dismissPopUpWindowTest">
+                  </a> <!-- dismissPopUpWindowTest -->
+                  <span class="method-name">dismissPopUpWindowTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.sigma.appium.pages.android.PopUpPage.dismissPopUpWindow(PopUpPage.java:68)
+	at com.sigma.appium.tests.android.PopUpPageTest.dismissPopUpWindowTest(PopUpPageTest.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPopUpWindowTextTest">
+                  </a> <!-- getPopUpWindowTextTest -->
+                  <span class="method-name">getPopUpWindowTextTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPopUpWindowTextTest">
+                  </a> <!-- getPopUpWindowTextTest -->
+                  <span class="method-name">getPopUpWindowTextTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPopUpWindowTextTest">
+                  </a> <!-- getPopUpWindowTextTest -->
+                  <span class="method-name">getPopUpWindowTextTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: String index out of range: -1
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;SCC0679&apos;, ip: &apos;172.23.199.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 8.1.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3862bf0f-0748-45e3-b39c-c967d1233244
+*** Element info: {Using=-android uiautomator, value=It&apos;s a PopupWindow}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:344)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementsByAndroidUIAutomator(FindsByAndroidUIAutomator.java:51)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElements(MobileBy.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:50)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:148)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.sigma.appium.android.BasePage.waitToAppear(BasePage.java:63)
+	at com.sigma.appium.pages.android.PopUpPage.getPopUpWindowText(PopUpPage.java:55)
+	at com.sigma.appium.tests.android.PopUpPageTest.getPopUpWindowTextTest(PopUpPageTest.java:40)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bench_Test_Cases-class-skipped -->
+          <div class="suite-Bench_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sigma.appium.tests.android.PopUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPageLoadedTest">
+                  </a> <!-- isPageLoadedTest -->
+                  <span class="method-name">isPageLoadedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPageUnloadedTest">
+                  </a> <!-- isPageUnloadedTest -->
+                  <span class="method-name">isPageUnloadedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnToHomePageTest">
+                  </a> <!-- returnToHomePageTest -->
+                  <span class="method-name">returnToHomePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bench_Test_Cases-class-passed -->
+          <div class="suite-Bench_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sigma.appium.tests.android.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickChromeIconTest">
+                  </a> <!-- clickChromeIconTest -->
+                  <span class="method-name">clickChromeIconTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPageLoadedTest">
+                  </a> <!-- isPageLoadedTest -->
+                  <span class="method-name">isPageLoadedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPageUnloadedTest">
+                  </a> <!-- isPageUnloadedTest -->
+                  <span class="method-name">isPageUnloadedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bench_Test_Cases-class-passed -->
+          <div class="suite-Bench_Test_Cases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sigma.appium.tests.android.CarSelectionPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSendNameButtonTest">
+                  </a> <!-- clickSendNameButtonTest -->
+                  <span class="method-name">clickSendNameButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterUserNameTest">
+                  </a> <!-- enterUserNameTest -->
+                  <span class="method-name">enterUserNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPageLoadedTest">
+                  </a> <!-- isPageLoadedTest -->
+                  <span class="method-name">isPageLoadedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPageUnloadedTest">
+                  </a> <!-- isPageUnloadedTest -->
+                  <span class="method-name">isPageUnloadedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isUserDataShownTest">
+                  </a> <!-- isUserDataShownTest -->
+                  <span class="method-name">isUserDataShownTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performCarSelectionTest">
+                  </a> <!-- performCarSelectionTest -->
+                  <span class="method-name">performCarSelectionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Bench_Test_Cases-class-passed -->
+        </div> <!-- panel Bench_Test_Cases -->
+        <div panel-name="test-xml-Bench_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\YOGH5035\eclipse-workspace\AppiumArtifcat\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Bench_Test_Cases&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.sigma.appium.core.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Home_WebView_Pages_Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sigma.appium.tests.android.TestPrimer&quot;/&gt;
+      &lt;class name=&quot;com.sigma.appium.tests.android.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.sigma.appium.tests.android.CarSelectionPageTest&quot;/&gt;
+      &lt;class name=&quot;com.sigma.appium.tests.android.PopUpPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home_WebView_Pages_Tests --&gt;
+&lt;/suite&gt; &lt;!-- Bench_Test_Cases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Bench_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Bench_Test_Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home_WebView_Pages_Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Bench_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Bench_Test_Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Bench_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Bench_Test_Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Bench_Test_Cases');
+function tableData_Bench_Test_Cases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterUserNameTest')
+data.setCell(0, 2, 'com.sigma.appium.tests.android.CarSelectionPageTest')
+data.setCell(0, 3, 10496);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getPopUpWindowTextTest')
+data.setCell(1, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(1, 3, 3265);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getPopUpWindowTextTest')
+data.setCell(2, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(2, 3, 3255);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getPopUpWindowTextTest')
+data.setCell(3, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(3, 3, 3229);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getPopUpWindowTextTest')
+data.setCell(4, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(4, 3, 3226);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickThrowExceptionButton')
+data.setCell(5, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(5, 3, 3027);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'performCarSelectionTest')
+data.setCell(6, 2, 'com.sigma.appium.tests.android.CarSelectionPageTest')
+data.setCell(6, 3, 2796);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'isPageUnloadedTest')
+data.setCell(7, 2, 'com.sigma.appium.tests.android.HomePageTest')
+data.setCell(7, 3, 2711);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickThrowExceptionButton')
+data.setCell(8, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(8, 3, 2684);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickChromeIconTest')
+data.setCell(9, 2, 'com.sigma.appium.tests.android.HomePageTest')
+data.setCell(9, 3, 1361);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'isUserDataShownTest')
+data.setCell(10, 2, 'com.sigma.appium.tests.android.CarSelectionPageTest')
+data.setCell(10, 3, 1323);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'returnToHomePageTest')
+data.setCell(11, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(11, 3, 1099);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'isPageLoadedTest')
+data.setCell(12, 2, 'com.sigma.appium.tests.android.HomePageTest')
+data.setCell(12, 3, 581);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickThrowExceptionButton')
+data.setCell(13, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(13, 3, 556);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickThrowExceptionButton')
+data.setCell(14, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(14, 3, 369);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickSendNameButtonTest')
+data.setCell(15, 2, 'com.sigma.appium.tests.android.CarSelectionPageTest')
+data.setCell(15, 3, 209);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'dismissPopUpWindowTest')
+data.setCell(16, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(16, 3, 202);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'dismissPopUpWindowTest')
+data.setCell(17, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(17, 3, 148);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'isPageUnloadedTest')
+data.setCell(18, 2, 'com.sigma.appium.tests.android.CarSelectionPageTest')
+data.setCell(18, 3, 97);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'isPageLoadedTest')
+data.setCell(19, 2, 'com.sigma.appium.tests.android.CarSelectionPageTest')
+data.setCell(19, 3, 89);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'isPageLoadedTest')
+data.setCell(20, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(20, 3, 78);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'dismissPopUpWindowTest')
+data.setCell(21, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(21, 3, 75);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'dismissPopUpWindowTest')
+data.setCell(22, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(22, 3, 65);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'isPageUnloadedTest')
+data.setCell(23, 2, 'com.sigma.appium.tests.android.PopUpPageTest')
+data.setCell(23, 3, 0);
+window.suiteTableData['Bench_Test_Cases']= { tableData: data, tableDiv: 'times-div-Bench_Test_Cases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-Bench_Test_Cases">
+              </div> <!-- times-div-Bench_Test_Cases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Bench_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Bench_Test_Cases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Bench_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Bench_Test_Cases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sigma.appium.tests.android.TestPrimer</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sigma.appium.tests.android.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">7279 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7279 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isPageLoadedTest</span>
+                <span class="method-start">7320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickChromeIconTest</span>
+                <span class="method-start">7913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPageUnloadedTest</span>
+                <span class="method-start">9275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11986 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sigma.appium.tests.android.CarSelectionPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">11988 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11988 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isPageLoadedTest</span>
+                <span class="method-start">12000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterUserNameTest</span>
+                <span class="method-start">12090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performCarSelectionTest</span>
+                <span class="method-start">22587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSendNameButtonTest</span>
+                <span class="method-start">25383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isUserDataShownTest</span>
+                <span class="method-start">25593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPageUnloadedTest</span>
+                <span class="method-start">26917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27015 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sigma.appium.tests.android.PopUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">27015 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27015 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">returnToHomePageTest</span>
+                <span class="method-start">27029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPageLoadedTest</span>
+                <span class="method-start">28128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPopUpWindowTextTest</span>
+                <span class="method-start">28206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPopUpWindowTextTest</span>
+                <span class="method-start">31472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPopUpWindowTextTest</span>
+                <span class="method-start">34727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getPopUpWindowTextTest</span>
+                <span class="method-start">37953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dismissPopUpWindowTest</span>
+                <span class="method-start">41190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dismissPopUpWindowTest</span>
+                <span class="method-start">41255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dismissPopUpWindowTest</span>
+                <span class="method-start">41330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dismissPopUpWindowTest</span>
+                <span class="method-start">41536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickThrowExceptionButton</span>
+                <span class="method-start">41685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickThrowExceptionButton</span>
+                <span class="method-start">42055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickThrowExceptionButton</span>
+                <span class="method-start">45082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickThrowExceptionButton</span>
+                <span class="method-start">45641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPageUnloadedTest</span>
+                <span class="method-start">48325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48325 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sigma.appium.tests.android.TestPrimer</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48388 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

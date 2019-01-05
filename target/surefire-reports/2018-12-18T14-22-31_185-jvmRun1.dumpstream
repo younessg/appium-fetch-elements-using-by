@@ -1,0 +1,2122 @@
+# Created at 2018-12-18T14:23:00.880
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-12-18T14:23:16.129
+Unexpected IOException with stream: Couldn't extract element from By object
+
+
+# Created at 2018-12-18T14:23:16.138
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f
+*** Element info: {Using=id, value=io.selendroid.testapp:id/buttonStartWebview}
+
+# Created at 2018-12-18T14:23:16.139
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.140
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-12-18T14:23:16.141
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.141
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:16.142
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.143
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-12-18T14:23:16.144
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.144
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-12-18T14:23:16.145
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.146
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2018-12-18T14:23:16.146
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.147
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2018-12-18T14:23:16.148
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.149
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2018-12-18T14:23:16.149
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.150
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2018-12-18T14:23:16.151
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.152
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+
+# Created at 2018-12-18T14:23:16.153
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.153
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-12-18T14:23:16.154
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.154
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+
+# Created at 2018-12-18T14:23:16.155
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.159
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:16.160
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.161
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:16.161
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.162
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+
+# Created at 2018-12-18T14:23:16.163
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.163
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+
+# Created at 2018-12-18T14:23:16.164
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.165
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:16.166
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.166
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:16.167
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.168
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+
+# Created at 2018-12-18T14:23:16.168
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.169
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+
+# Created at 2018-12-18T14:23:16.170
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.170
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:16.171
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.172
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:16.172
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.173
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ById.findElement(By.java:188)
+
+# Created at 2018-12-18T14:23:16.173
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.174
+Unexpected IOException with stream: 	at com.appium.youness.core.BasePage.getMobileElement(BasePage.java:150)
+
+# Created at 2018-12-18T14:23:16.175
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.175
+Unexpected IOException with stream: 	at com.appium.youness.pages.HomePage.getChromeIcon(HomePage.java:24)
+
+# Created at 2018-12-18T14:23:16.176
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.176
+Unexpected IOException with stream: 	at com.appium.youness.tests.HomePageTest.isPageUnloadedTest(HomePageTest.java:38)
+
+# Created at 2018-12-18T14:23:16.181
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.181
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2018-12-18T14:23:16.182
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.182
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:16.183
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.183
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2018-12-18T14:23:16.184
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.185
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2018-12-18T14:23:16.185
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.186
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2018-12-18T14:23:16.186
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.187
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2018-12-18T14:23:16.188
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.188
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2018-12-18T14:23:16.189
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.189
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2018-12-18T14:23:16.190
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.190
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2018-12-18T14:23:16.191
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.191
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2018-12-18T14:23:16.192
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.192
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2018-12-18T14:23:16.193
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.193
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2018-12-18T14:23:16.194
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.195
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2018-12-18T14:23:16.195
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.196
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2018-12-18T14:23:16.196
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.197
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2018-12-18T14:23:16.197
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.200
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2018-12-18T14:23:16.202
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.203
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2018-12-18T14:23:16.204
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.204
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2018-12-18T14:23:16.205
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.205
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2018-12-18T14:23:16.206
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.207
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2018-12-18T14:23:16.207
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.208
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2018-12-18T14:23:16.208
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.209
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2018-12-18T14:23:16.209
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.210
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2018-12-18T14:23:16.214
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.215
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2018-12-18T14:23:16.216
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.216
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2018-12-18T14:23:16.217
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.217
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created at 2018-12-18T14:23:16.218
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.218
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+
+# Created at 2018-12-18T14:23:16.220
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.224
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+
+# Created at 2018-12-18T14:23:16.224
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.225
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+# Created at 2018-12-18T14:23:16.225
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:16.226
+Unexpected IOException: 8,1,com.appium.youness.tests.HomePageTest,isPageUnloadedTest(com.appium.youness.tests.HomePageTest),null,null,null,null,HomePageTest.isPageUnloadedTest:38 NullPointer,java.lang.NullPointerException\000A\0009at com.appium.youness.tests.HomePageTest.isPageUnloadedTest(HomePageTest.java:38)\000A
+
+
+# Created at 2018-12-18T14:23:16.228
+Unexpected IOException with stream:  
+
+
+# Created at 2018-12-18T14:23:16.229
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-12-18T14:23:16.255
+Unexpected IOException with stream: NAME ENTRY AND CAR SELECTION PAGE TESTS ------------------------------
+
+
+# Created at 2018-12-18T14:23:16.256
+Unexpected IOException: 5,1,com.appium.youness.tests.CarSelectionPageTest,isPageLoadedTest(com.appium.youness.tests.CarSelectionPageTest),com.appium.youness.tests.CarSelectionPageTest,null,null
+
+
+# Created at 2018-12-18T14:23:17.718
+Unexpected IOException: 8,1,com.appium.youness.tests.CarSelectionPageTest,isPageLoadedTest(com.appium.youness.tests.CarSelectionPageTest),null,Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='Web View Interaction' and @index='0'] (tried for 1 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='Web View Interaction' and @index='0'] (tried for 1 second(s) with 500 milliseconds interval),CarSelectionPageTest.isPageLoadedTest:30 \00BB Timeout Expected condition failed: ...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.TextView[@text='Web View Interaction' and @index='0'] (tried for 1 second(s) with 500 milliseconds interval)\000A\0009at com.appium.youness.tests.CarSelectionPageTest.isPageLoadedTest(CarSelectionPageTest.java:30)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using By.xpath: //android.widget.TextView[@text='Web View Interaction' and @index='0']\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: driver.version: unknown\000A\0009at com.appium.youness.tests.CarSelectionPageTest.isPageLoadedTest(CarSelectionPageTest.java:30)\000A
+
+
+# Created at 2018-12-18T14:23:17.720
+Unexpected IOException: 5,1,com.appium.youness.tests.CarSelectionPageTest,enterUserNameTest(com.appium.youness.tests.CarSelectionPageTest),com.appium.youness.tests.CarSelectionPageTest,null,null
+
+
+# Created at 2018-12-18T14:23:18.005
+Unexpected IOException with stream: Couldn't extract element from By object
+
+
+# Created at 2018-12-18T14:23:18.006
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f
+*** Element info: {Using=id, value=name_input}
+
+# Created at 2018-12-18T14:23:18.007
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.007
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-12-18T14:23:18.008
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.008
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:18.009
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.009
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-12-18T14:23:18.010
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.010
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-12-18T14:23:18.010
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.011
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2018-12-18T14:23:18.011
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.011
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2018-12-18T14:23:18.012
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.012
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2018-12-18T14:23:18.013
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.013
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2018-12-18T14:23:18.014
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.014
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+
+# Created at 2018-12-18T14:23:18.014
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.015
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-12-18T14:23:18.015
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.016
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+
+# Created at 2018-12-18T14:23:18.016
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.017
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.017
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.018
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.018
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.018
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+
+# Created at 2018-12-18T14:23:18.019
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.019
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+
+# Created at 2018-12-18T14:23:18.019
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.019
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.020
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.020
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.020
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.021
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+
+# Created at 2018-12-18T14:23:18.021
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.022
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+
+# Created at 2018-12-18T14:23:18.022
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.022
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.023
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.023
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.023
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.024
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ById.findElement(By.java:188)
+
+# Created at 2018-12-18T14:23:18.024
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.024
+Unexpected IOException with stream: 	at com.appium.youness.core.BasePage.getMobileElement(BasePage.java:150)
+
+# Created at 2018-12-18T14:23:18.025
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.025
+Unexpected IOException with stream: 	at com.appium.youness.pages.CarSelectionPage.enterUserName(CarSelectionPage.java:42)
+
+# Created at 2018-12-18T14:23:18.025
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.026
+Unexpected IOException with stream: 	at com.appium.youness.tests.CarSelectionPageTest.enterUserNameTest(CarSelectionPageTest.java:36)
+
+# Created at 2018-12-18T14:23:18.026
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.026
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2018-12-18T14:23:18.027
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.027
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:18.028
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.028
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2018-12-18T14:23:18.029
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.029
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2018-12-18T14:23:18.030
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.030
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2018-12-18T14:23:18.030
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.031
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2018-12-18T14:23:18.031
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.031
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2018-12-18T14:23:18.032
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.032
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2018-12-18T14:23:18.032
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.033
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2018-12-18T14:23:18.033
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.033
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2018-12-18T14:23:18.034
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.034
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2018-12-18T14:23:18.034
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.034
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2018-12-18T14:23:18.035
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.035
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2018-12-18T14:23:18.035
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.036
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2018-12-18T14:23:18.036
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.037
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2018-12-18T14:23:18.037
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.038
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2018-12-18T14:23:18.038
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.039
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2018-12-18T14:23:18.039
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.040
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2018-12-18T14:23:18.040
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.040
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2018-12-18T14:23:18.041
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.041
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2018-12-18T14:23:18.042
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.042
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2018-12-18T14:23:18.043
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.043
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2018-12-18T14:23:18.044
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.044
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2018-12-18T14:23:18.045
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.045
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2018-12-18T14:23:18.045
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.046
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2018-12-18T14:23:18.046
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.046
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created at 2018-12-18T14:23:18.047
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.047
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+
+# Created at 2018-12-18T14:23:18.047
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.048
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+
+# Created at 2018-12-18T14:23:18.048
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.049
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+# Created at 2018-12-18T14:23:18.049
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.050
+Unexpected IOException: 8,1,com.appium.youness.tests.CarSelectionPageTest,enterUserNameTest(com.appium.youness.tests.CarSelectionPageTest),null,null,null,null,CarSelectionPageTest.enterUserNameTest:36 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.appium.youness.tests.CarSelectionPageTest.enterUserNameTest(CarSelectionPageTest.java:36)\000A
+
+
+# Created at 2018-12-18T14:23:18.050
+Unexpected IOException: 5,1,com.appium.youness.tests.CarSelectionPageTest,performCarSelectionTest(com.appium.youness.tests.CarSelectionPageTest),com.appium.youness.tests.CarSelectionPageTest,null,null
+
+
+# Created at 2018-12-18T14:23:18.120
+Unexpected IOException with stream: Couldn't extract element from By object
+
+
+# Created at 2018-12-18T14:23:18.121
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f
+*** Element info: {Using=xpath, value=//android.widget.Spinner[@index='2']}
+
+# Created at 2018-12-18T14:23:18.122
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.122
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-12-18T14:23:18.123
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.123
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:18.124
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.124
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-12-18T14:23:18.124
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.124
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-12-18T14:23:18.125
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.125
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2018-12-18T14:23:18.125
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.126
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2018-12-18T14:23:18.126
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.127
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2018-12-18T14:23:18.127
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.127
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2018-12-18T14:23:18.128
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.128
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+
+# Created at 2018-12-18T14:23:18.129
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.129
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-12-18T14:23:18.130
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.130
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+
+# Created at 2018-12-18T14:23:18.131
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.131
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.132
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.132
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.133
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.133
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+
+# Created at 2018-12-18T14:23:18.133
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.134
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+
+# Created at 2018-12-18T14:23:18.134
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.135
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.135
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.136
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.136
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.137
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+
+# Created at 2018-12-18T14:23:18.137
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.137
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+
+# Created at 2018-12-18T14:23:18.138
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.138
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.139
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.139
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.139
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.140
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2018-12-18T14:23:18.140
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.140
+Unexpected IOException with stream: 	at com.appium.youness.core.BasePage.getMobileElement(BasePage.java:150)
+
+# Created at 2018-12-18T14:23:18.141
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.141
+Unexpected IOException with stream: 	at com.appium.youness.core.BasePage.pixelPrecisionClick(BasePage.java:131)
+
+# Created at 2018-12-18T14:23:18.141
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.142
+Unexpected IOException with stream: 	at com.appium.youness.pages.CarSelectionPage.performCarSelection(CarSelectionPage.java:52)
+
+# Created at 2018-12-18T14:23:18.142
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.142
+Unexpected IOException with stream: 	at com.appium.youness.tests.CarSelectionPageTest.performCarSelectionTest(CarSelectionPageTest.java:44)
+
+# Created at 2018-12-18T14:23:18.143
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.143
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2018-12-18T14:23:18.143
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.144
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:18.144
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.145
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2018-12-18T14:23:18.145
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.145
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2018-12-18T14:23:18.146
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.146
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2018-12-18T14:23:18.147
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.147
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2018-12-18T14:23:18.147
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.148
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2018-12-18T14:23:18.148
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.149
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2018-12-18T14:23:18.149
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.149
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2018-12-18T14:23:18.150
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.150
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2018-12-18T14:23:18.150
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.150
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2018-12-18T14:23:18.151
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.151
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2018-12-18T14:23:18.151
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.152
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2018-12-18T14:23:18.152
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.152
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2018-12-18T14:23:18.152
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.153
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2018-12-18T14:23:18.153
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.153
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2018-12-18T14:23:18.154
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.154
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2018-12-18T14:23:18.154
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.155
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2018-12-18T14:23:18.155
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.155
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2018-12-18T14:23:18.156
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.156
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2018-12-18T14:23:18.156
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.157
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2018-12-18T14:23:18.157
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.157
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2018-12-18T14:23:18.158
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.158
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2018-12-18T14:23:18.158
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.158
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2018-12-18T14:23:18.159
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.159
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2018-12-18T14:23:18.159
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.160
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created at 2018-12-18T14:23:18.160
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.160
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+
+# Created at 2018-12-18T14:23:18.160
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.161
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+
+# Created at 2018-12-18T14:23:18.161
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.161
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+# Created at 2018-12-18T14:23:18.162
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.162
+Unexpected IOException: 8,1,com.appium.youness.tests.CarSelectionPageTest,performCarSelectionTest(com.appium.youness.tests.CarSelectionPageTest),null,null,null,null,CarSelectionPageTest.performCarSelectionTest:44 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.appium.youness.tests.CarSelectionPageTest.performCarSelectionTest(CarSelectionPageTest.java:44)\000A
+
+
+# Created at 2018-12-18T14:23:18.163
+Unexpected IOException: 5,1,com.appium.youness.tests.CarSelectionPageTest,clickSendNameButtonTest(com.appium.youness.tests.CarSelectionPageTest),com.appium.youness.tests.CarSelectionPageTest,null,null
+
+
+# Created at 2018-12-18T14:23:18.243
+Unexpected IOException with stream: Couldn't extract element from By object
+
+
+# Created at 2018-12-18T14:23:18.244
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f
+*** Element info: {Using=xpath, value=//android.widget.Button[@index='6']}
+
+# Created at 2018-12-18T14:23:18.244
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.245
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-12-18T14:23:18.245
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.246
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:18.246
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.246
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-12-18T14:23:18.247
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.247
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-12-18T14:23:18.247
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.248
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2018-12-18T14:23:18.248
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.248
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2018-12-18T14:23:18.248
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.249
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2018-12-18T14:23:18.249
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.249
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2018-12-18T14:23:18.249
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.250
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+
+# Created at 2018-12-18T14:23:18.250
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.250
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-12-18T14:23:18.251
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.251
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+
+# Created at 2018-12-18T14:23:18.251
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.252
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.252
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.252
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.253
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.253
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+
+# Created at 2018-12-18T14:23:18.253
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.254
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+
+# Created at 2018-12-18T14:23:18.254
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.255
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.255
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.256
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.256
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.256
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+
+# Created at 2018-12-18T14:23:18.257
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.257
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+
+# Created at 2018-12-18T14:23:18.258
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.258
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.259
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.259
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:18.259
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.259
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2018-12-18T14:23:18.260
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.260
+Unexpected IOException with stream: 	at com.appium.youness.core.BasePage.getMobileElement(BasePage.java:150)
+
+# Created at 2018-12-18T14:23:18.260
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.261
+Unexpected IOException with stream: 	at com.appium.youness.core.BasePage.pixelPrecisionClick(BasePage.java:131)
+
+# Created at 2018-12-18T14:23:18.261
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.261
+Unexpected IOException with stream: 	at com.appium.youness.pages.CarSelectionPage.clickSendNameButton(CarSelectionPage.java:63)
+
+# Created at 2018-12-18T14:23:18.261
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.262
+Unexpected IOException with stream: 	at com.appium.youness.tests.CarSelectionPageTest.clickSendNameButtonTest(CarSelectionPageTest.java:50)
+
+# Created at 2018-12-18T14:23:18.262
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.262
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2018-12-18T14:23:18.262
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.263
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:18.263
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.263
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2018-12-18T14:23:18.264
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.264
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2018-12-18T14:23:18.264
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.265
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2018-12-18T14:23:18.265
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.265
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2018-12-18T14:23:18.265
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.266
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2018-12-18T14:23:18.266
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.266
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2018-12-18T14:23:18.267
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.267
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2018-12-18T14:23:18.267
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.267
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2018-12-18T14:23:18.268
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.268
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2018-12-18T14:23:18.268
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.268
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2018-12-18T14:23:18.269
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.269
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2018-12-18T14:23:18.269
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.270
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2018-12-18T14:23:18.270
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.270
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2018-12-18T14:23:18.270
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.271
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2018-12-18T14:23:18.271
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.271
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2018-12-18T14:23:18.271
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.272
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2018-12-18T14:23:18.272
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.272
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2018-12-18T14:23:18.273
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.273
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2018-12-18T14:23:18.273
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.273
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2018-12-18T14:23:18.274
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.274
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2018-12-18T14:23:18.274
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.275
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2018-12-18T14:23:18.275
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.275
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2018-12-18T14:23:18.275
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.276
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2018-12-18T14:23:18.276
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.276
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created at 2018-12-18T14:23:18.277
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.277
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+
+# Created at 2018-12-18T14:23:18.277
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.278
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+
+# Created at 2018-12-18T14:23:18.278
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.279
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+# Created at 2018-12-18T14:23:18.279
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:18.280
+Unexpected IOException: 8,1,com.appium.youness.tests.CarSelectionPageTest,clickSendNameButtonTest(com.appium.youness.tests.CarSelectionPageTest),null,null,null,null,CarSelectionPageTest.clickSendNameButtonTest:50 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.appium.youness.tests.CarSelectionPageTest.clickSendNameButtonTest(CarSelectionPageTest.java:50)\000A
+
+
+# Created at 2018-12-18T14:23:18.280
+Unexpected IOException: 5,1,com.appium.youness.tests.CarSelectionPageTest,isUserDataShownTest(com.appium.youness.tests.CarSelectionPageTest),com.appium.youness.tests.CarSelectionPageTest,null,null
+
+
+# Created at 2018-12-18T14:23:19.796
+Unexpected IOException: 8,1,com.appium.youness.tests.CarSelectionPageTest,isUserDataShownTest(com.appium.youness.tests.CarSelectionPageTest),null,An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f\000A*** Element info: {Using=xpath\002C value=//*/android.webkit.WebView/android.view.View[4]},null,An unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f\000A*** Element info: {Using=xpath\002C value=//*/android.webkit.WebView/android.view.View[4]},CarSelectionPageTest.isUserDataShownTest:55 \00BB WebDriver An unknown server-side...,org.openqa.selenium.WebDriverException: \000AAn unknown server-side error occurred while processing the command. Original error: UiAUtomator shut down unexpectedly\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f\000A*** Element info: {Using=xpath\002C value=//*/android.webkit.WebView/android.view.View[4]}\000A\0009at com.appium.youness.tests.CarSelectionPageTest.isUserDataShownTest(CarSelectionPageTest.java:55)\000A
+
+
+# Created at 2018-12-18T14:23:19.806
+Unexpected IOException: 5,1,com.appium.youness.tests.CarSelectionPageTest,isPageUnloadedTest(com.appium.youness.tests.CarSelectionPageTest),com.appium.youness.tests.CarSelectionPageTest,null,null
+
+
+# Created at 2018-12-18T14:23:19.853
+Unexpected IOException with stream: Couldn't extract element from By object
+
+
+# Created at 2018-12-18T14:23:19.853
+Unexpected IOException with stream: org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SCC0679', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\appium_files\selendroid-..., appActivity: io.selendroid.testapp.HomeS..., appPackage: io.selendroid.testapp, appWaitActivity: io.selendroid.testapp.HomeS..., appWaitPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\appium_files\selendroid-..., deviceName: emulator-5554, noReset: false, platformName: android}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f
+*** Element info: {Using=xpath, value=//android.view.View[@content-desc="This is my way of saying hello"]}
+
+# Created at 2018-12-18T14:23:19.854
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.854
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2018-12-18T14:23:19.855
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.855
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:19.855
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.856
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2018-12-18T14:23:19.856
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.856
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2018-12-18T14:23:19.857
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.857
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2018-12-18T14:23:19.857
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.858
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2018-12-18T14:23:19.858
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.859
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2018-12-18T14:23:19.859
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.859
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2018-12-18T14:23:19.860
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.860
+Unexpected IOException with stream: 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+
+# Created at 2018-12-18T14:23:19.861
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.861
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+
+# Created at 2018-12-18T14:23:19.862
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.862
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+
+# Created at 2018-12-18T14:23:19.868
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.868
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:19.868
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.868
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:19.869
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.869
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+
+# Created at 2018-12-18T14:23:19.870
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.870
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+
+# Created at 2018-12-18T14:23:19.871
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.871
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:19.871
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.872
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:19.872
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.872
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+
+# Created at 2018-12-18T14:23:19.873
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.873
+Unexpected IOException with stream: 	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+
+# Created at 2018-12-18T14:23:19.873
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.874
+Unexpected IOException with stream: 	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+
+# Created at 2018-12-18T14:23:19.874
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.874
+Unexpected IOException with stream: 	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+
+# Created at 2018-12-18T14:23:19.875
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.875
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2018-12-18T14:23:19.876
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.876
+Unexpected IOException with stream: 	at com.appium.youness.core.BasePage.getMobileElement(BasePage.java:150)
+
+# Created at 2018-12-18T14:23:19.876
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.877
+Unexpected IOException with stream: 	at com.appium.youness.pages.CarSelectionPage.isSummaryScreenShown(CarSelectionPage.java:67)
+
+# Created at 2018-12-18T14:23:19.877
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.878
+Unexpected IOException with stream: 	at com.appium.youness.tests.CarSelectionPageTest.isPageUnloadedTest(CarSelectionPageTest.java:60)
+
+# Created at 2018-12-18T14:23:19.878
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.878
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2018-12-18T14:23:19.878
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.879
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2018-12-18T14:23:19.879
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.879
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2018-12-18T14:23:19.879
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.880
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2018-12-18T14:23:19.880
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.880
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2018-12-18T14:23:19.881
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.881
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2018-12-18T14:23:19.881
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.881
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2018-12-18T14:23:19.882
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.882
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2018-12-18T14:23:19.882
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.883
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2018-12-18T14:23:19.883
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.884
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2018-12-18T14:23:19.884
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.884
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2018-12-18T14:23:19.889
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.889
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2018-12-18T14:23:19.889
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.889
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2018-12-18T14:23:19.889
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.889
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2018-12-18T14:23:19.890
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.890
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2018-12-18T14:23:19.890
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.890
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2018-12-18T14:23:19.891
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.891
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2018-12-18T14:23:19.891
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.892
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2018-12-18T14:23:19.892
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.892
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2018-12-18T14:23:19.892
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.892
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2018-12-18T14:23:19.893
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.893
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2018-12-18T14:23:19.893
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.894
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2018-12-18T14:23:19.894
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.894
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2018-12-18T14:23:19.895
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.895
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2018-12-18T14:23:19.895
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.896
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2018-12-18T14:23:19.896
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.896
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created at 2018-12-18T14:23:19.897
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.898
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+
+# Created at 2018-12-18T14:23:19.898
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.898
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+
+# Created at 2018-12-18T14:23:19.899
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.899
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+# Created at 2018-12-18T14:23:19.899
+Unexpected IOException with stream: 
+
+
+# Created at 2018-12-18T14:23:19.900
+Unexpected IOException: 8,1,com.appium.youness.tests.CarSelectionPageTest,isPageUnloadedTest(com.appium.youness.tests.CarSelectionPageTest),null,null,null,null,CarSelectionPageTest.isPageUnloadedTest:60 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.appium.youness.tests.CarSelectionPageTest.isPageUnloadedTest(CarSelectionPageTest.java:60)\000A
+
+
+# Created at 2018-12-18T14:23:19.901
+Unexpected IOException with stream:  
+
+
+# Created at 2018-12-18T14:23:19.901
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-12-18T14:23:19.955
+Unexpected IOException: 8,1,com.appium.youness.tests.PopUpPageTest,setup(com.appium.youness.tests.PopUpPageTest),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,PopUpPageTest.setup:23 \00BB NoSuchSession A session is either terminated or not s...,org.openqa.selenium.NoSuchSessionException: \000AA session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f\000A\0009at com.appium.youness.tests.PopUpPageTest.setup(PopUpPageTest.java:23)\000A
+
+
+# Created at 2018-12-18T14:23:19.957
+Unexpected IOException: 9,1,com.appium.youness.tests.PopUpPageTest,returnToHomePageTest(com.appium.youness.tests.PopUpPageTest),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null
+
+
+# Created at 2018-12-18T14:23:19.958
+Unexpected IOException: 9,1,com.appium.youness.tests.PopUpPageTest,isPageLoadedTest(com.appium.youness.tests.PopUpPageTest),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null
+
+
+# Created at 2018-12-18T14:23:19.959
+Unexpected IOException: 9,1,com.appium.youness.tests.PopUpPageTest,getPopUpWindowTextTest(com.appium.youness.tests.PopUpPageTest),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null
+
+
+# Created at 2018-12-18T14:23:19.960
+Unexpected IOException: 9,1,com.appium.youness.tests.PopUpPageTest,dismissPopUpWindowTest(com.appium.youness.tests.PopUpPageTest),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null
+
+
+# Created at 2018-12-18T14:23:19.961
+Unexpected IOException: 9,1,com.appium.youness.tests.PopUpPageTest,clickThrowExceptionButton(com.appium.youness.tests.PopUpPageTest),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null
+
+
+# Created at 2018-12-18T14:23:19.961
+Unexpected IOException: 9,1,com.appium.youness.tests.PopUpPageTest,isPageUnloadedTest(com.appium.youness.tests.PopUpPageTest),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null
+
+
+# Created at 2018-12-18T14:23:19.962
+Unexpected IOException: 9,1,com.appium.youness.tests.PopUpPageTest,tearDown(com.appium.youness.tests.PopUpPageTest),null,null,null
+
+
+# Created at 2018-12-18T14:23:20.024
+Unexpected IOException with stream: END OF TEST-SUITE EXECUTION --------------------------------------
+
+
+# Created at 2018-12-18T14:23:20.024
+Unexpected IOException with stream: Getting driver...
+
+
+# Created at 2018-12-18T14:23:20.057
+Unexpected IOException: 8,1,com.appium.youness.tests.TestPrimer,tearDown(com.appium.youness.tests.TestPrimer),null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,null,A session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f,TestPrimer.tearDown:41 \00BB NoSuchSession A session is either terminated or not s...,org.openqa.selenium.NoSuchSessionException: \000AA session is either terminated or not started\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'SCC0679'\002C ip: '192.168.1.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_181'\000ADriver info: io.appium.java_client.android.AndroidDriver\000ACapabilities {app: C:\005Cappium_files\005Cselendroid-...\002C appActivity: io.selendroid.testapp.HomeS...\002C appPackage: io.selendroid.testapp\002C appWaitActivity: io.selendroid.testapp.HomeS...\002C appWaitPackage: io.selendroid.testapp\002C databaseEnabled: false\002C desired: {app: C:\005Cappium_files\005Cselendroid-...\002C deviceName: emulator-5554\002C noReset: false\002C platformName: android}\002C deviceManufacturer: Google\002C deviceModel: Android SDK built for x86\002C deviceName: emulator-5554\002C deviceScreenSize: 1080x1920\002C deviceUDID: emulator-5554\002C javascriptEnabled: true\002C locationContextEnabled: false\002C networkConnectionEnabled: true\002C noReset: false\002C platform: LINUX\002C platformName: Android\002C platformVersion: 9\002C takesScreenshot: true\002C warnings: {}\002C webStorageEnabled: false}\000ASession ID: 750856d8-3a05-42b6-9d46-3e8f5d9a8b2f\000A\0009at com.appium.youness.tests.TestPrimer.tearDown(TestPrimer.java:41)\000A
+
+
+# Created at 2018-12-18T14:23:20.214
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

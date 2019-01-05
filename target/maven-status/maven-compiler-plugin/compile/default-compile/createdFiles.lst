@@ -1,0 +1,16 @@
+com\sigma\appium\pages\android\CarSelectionPage.class
+com\sigma\appium\pages\android\HomePage.class
+com\sigma\appium\core\AnnotationTransformer.class
+com\sigma\appium\utils\Platforms.class
+com\sigma\appium\pages\android\PopUpPage.class
+com\sigma\appium\android\BasePage.class
+com\sigma\appium\tests\android\TestPrimer.class
+com\sigma\appium\core\DriversFactory.class
+com\sigma\appium\core\RetryAnalyzer.class
+com\sigma\appium\tests\android\PopUpPageTest.class
+com\sigma\appium\tests\android\CarSelectionPageTest.class
+com\sigma\appium\ios\IOSBasePage.class
+com\sigma\appium\android\BaseTest.class
+com\sigma\appium\core\Server.class
+com\sigma\appium\tests\android\HomePageTest.class
+com\sigma\appium\utils\SwipeDirection.class
